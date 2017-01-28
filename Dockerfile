@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.6.2
+ENV VERSION=3.0.0
 
 RUN gem install adlint --version ${VERSION} --no-format-exec
 
